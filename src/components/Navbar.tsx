@@ -22,7 +22,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-2 font-mono text-lg font-bold">
           <span className="text-cyber-green">&gt;_</span>
-          <span>Ananth<span className="text-cyber-blue">OS</span></span>
+          <span>Ananth<span className="text-cyber-blue">.exe</span></span>
         </a>
 
         <div className="hidden items-center gap-1 md:flex">

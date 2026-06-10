@@ -40,10 +40,10 @@ export default function Hero() {
           className="mb-6 text-5xl font-bold tracking-tight sm:text-7xl lg:text-8xl"
         >
           <span className="bg-gradient-to-r from-cyber-blue via-cyber-purple to-cyber-pink bg-clip-text text-transparent">
-            Ananth OS
+            Ananth.exe
           </span>
           <br />
-          <span className="font-mono text-2xl font-normal text-gray-500 sm:text-3xl">v25.0</span>
+          <span className="font-mono text-2xl font-normal text-gray-500 sm:text-3xl">The Journey</span>
         </motion.h1>
 
         <motion.p
@@ -91,7 +91,7 @@ export default function Hero() {
             <span className="h-3 w-3 rounded-full bg-red-500/80" />
             <span className="h-3 w-3 rounded-full bg-yellow-500/80" />
             <span className="h-3 w-3 rounded-full bg-green-500/80" />
-            <span className="ml-2 font-mono text-xs text-gray-500">ananth@os ~ terminal</span>
+            <span className="ml-2 font-mono text-xs text-gray-500">ananth@journey ~ terminal</span>
           </div>
           <div className="p-5 text-left font-mono text-sm">
             <span className="text-cyber-green">{typedText}</span>

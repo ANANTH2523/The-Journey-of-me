@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="text-center">
           <p className="font-mono text-xs text-gray-600">
-            &copy; {new Date().getFullYear()} Ananth OS v25.0 &middot; Built with React, TypeScript & Tailwind &middot; Deployed on the edge
+            &copy; {new Date().getFullYear()} Ananth.exe — The Journey &middot; Built with React, TypeScript & Tailwind &middot; Deployed on the edge
           </p>
           <p className="mt-2 font-mono text-[10px] text-gray-700">
             No engineers were harmed in the making of this portfolio. Side effects may include laughter.

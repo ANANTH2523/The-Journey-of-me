@@ -1,6 +1,6 @@
-# Ananth OS v25.0
+# Ananth.exe — The Journey
 
-A humorous developer portfolio presented as if "Ananth" is a software product being reviewed before production deployment.
+A humorous developer portfolio presented as if "Ananth" is a software product being reviewed before production deployment. Think GitHub meets Linear meets a futuristic OS boot screen.
 
 **Live Demo:** Deploy with `npm run build` and serve the `dist/` folder.
 
