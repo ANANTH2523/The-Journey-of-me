@@ -2,56 +2,79 @@ import { motion } from 'framer-motion'
 
 const traits = [
   {
-    icon: '🌍',
-    title: 'World Traveler',
-    detail: 'India → Sweden. Survived -20°C winters and still smiling.',
-    color: 'text-cyber-blue',
-    border: 'border-cyber-blue/20',
-  },
-  {
-    icon: '🏆',
-    title: 'Champion Mentality',
-    detail: 'Go Kart Champion India 2022. Doesn\'t do anything halfway.',
-    color: 'text-cyber-yellow',
-    border: 'border-cyber-yellow/20',
-  },
-  {
-    icon: '🎯',
-    title: 'Ambitious AF',
-    detail: 'Masters in Aerospace. Building AI startups. Playing pro cricket. All at once.',
+    icon: '🎬',
+    title: 'Crazy Movie Lover',
+    detail: 'From Nolan masterpieces to Telugu blockbusters — can debate film theory for hours. Has a "must watch" list longer than most people\'s bucket lists.',
     color: 'text-cyber-pink',
     border: 'border-cyber-pink/20',
   },
   {
-    icon: '🍳',
-    title: 'Can Actually Cook',
-    detail: 'South Indian cuisine specialist. Biryani rating: 10/10 by 47 verified reviewers.',
+    icon: '🤝',
+    title: 'Always Down for Meetups',
+    detail: 'Coffee catch-ups, spontaneous dinners, weekend trips — never says no. The friend who actually shows up, every single time.',
+    color: 'text-cyber-blue',
+    border: 'border-cyber-blue/20',
+  },
+  {
+    icon: '😂',
+    title: 'Meme Lord',
+    detail: 'Social media meme encyclopedia. Will respond to any situation with the perfect meme in under 3 seconds. Peak internet culture awareness.',
+    color: 'text-cyber-yellow',
+    border: 'border-cyber-yellow/20',
+  },
+  {
+    icon: '🧠',
+    title: 'Walking Wikipedia',
+    detail: 'Insane general knowledge — from quantum physics to football stats to obscure history. The person you want on your quiz team. Always.',
     color: 'text-cyber-green',
     border: 'border-cyber-green/20',
   },
   {
-    icon: '🎵',
-    title: 'Music & Vibes',
-    detail: 'From Telugu beats to Swedish EDM. Spotify Wrapped: embarrassingly diverse.',
+    icon: '🔥',
+    title: 'Philosophical Motivator',
+    detail: 'The 3 AM friend who gives life-changing advice. Combines deep philosophical thinking with real-world wisdom to lift people up when they need it most.',
     color: 'text-cyber-purple',
     border: 'border-cyber-purple/20',
   },
   {
-    icon: '🤝',
-    title: 'Loyal & Dependable',
-    detail: 'If you\'re in my circle, I\'ve got your back. Zero runtime errors in friendships.',
+    icon: '👔',
+    title: 'Mature Beyond His Years',
+    detail: 'Moved countries alone at 21. Handles pressure like a veteran. Emotionally intelligent, financially responsible, and knows when to be serious.',
     color: 'text-cyber-blue',
     border: 'border-cyber-blue/20',
+  },
+  {
+    icon: '🌍',
+    title: 'World Traveler',
+    detail: 'India → Sweden. Survived -20°C winters and still smiling. Adapts to any culture, any city, any situation.',
+    color: 'text-cyber-yellow',
+    border: 'border-cyber-yellow/20',
+  },
+  {
+    icon: '🍳',
+    title: 'Can Actually Cook',
+    detail: 'South Indian cuisine specialist. Biryani rating: 10/10. Will feed you better than most restaurants.',
+    color: 'text-cyber-pink',
+    border: 'border-cyber-pink/20',
+  },
+  {
+    icon: '🏆',
+    title: 'Champion Mentality',
+    detail: 'Go Kart Champion India 2022. Masters in Software Engineering. Doesn\'t do anything halfway — goes all in, every time.',
+    color: 'text-cyber-green',
+    border: 'border-cyber-green/20',
   },
 ]
 
 const lifetimeStats = [
   { label: 'Countries Explored', value: '8+', icon: '✈️' },
-  { label: 'Hackathons Won', value: '5+', icon: '🏅' },
-  { label: 'Cups of Coffee', value: '∞', icon: '☕' },
-  { label: 'Adventures/Year', value: '50+', icon: '⚡' },
+  { label: 'Movies Watched', value: '1000+', icon: '🎬' },
+  { label: 'Friends Motivated', value: '∞', icon: '💪' },
+  { label: 'Memes Shared/Day', value: '50+', icon: '😂' },
   { label: 'Languages Spoken', value: '4', icon: '🗣️' },
-  { label: 'Friend Approval Rating', value: '99.9%', icon: '💯' },
+  { label: 'Meetups Never Missed', value: '99.9%', icon: '🤝' },
+  { label: 'Quiz Wins', value: '20+', icon: '🧠' },
+  { label: 'Cups of Coffee', value: '∞', icon: '☕' },
 ]
 
 const container = {
@@ -95,7 +118,7 @@ export default function WhyAnanth() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="mb-12 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6"
+          className="mb-12 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8"
         >
           {lifetimeStats.map((stat) => (
             <motion.div
@@ -155,11 +178,12 @@ export default function WhyAnanth() {
         >
           <div className="mx-auto max-w-md rounded-xl border border-dark-border bg-dark-card/30 p-6">
             <p className="font-mono text-xs italic text-gray-500">
-              "He's the kind of guy who'll fix your code, cook you dinner, and then casually
-              mention he won a national championship."
+              "He'll send you the perfect meme at 2 AM, motivate you with a philosophical
+              quote at 3 AM, cook you biryani at noon, and casually mention he's a national
+              go-kart champion over dinner."
             </p>
             <p className="mt-2 font-mono text-[10px] text-cyber-pink">
-              — Every friend who's tried to describe Ananth
+              — Everyone who's ever met Ananth
             </p>
           </div>
         </motion.div>

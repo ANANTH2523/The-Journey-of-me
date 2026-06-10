@@ -19,7 +19,7 @@ const versions = [
     tag: 'latest',
     tagColor: 'text-cyber-green bg-cyber-green/10 border-cyber-green/20',
     changes: [
-      { type: 'feat', text: "Completed Master's Degree" },
+      { type: 'feat', text: "Completed Master's in Software Engineering" },
       { type: 'feat', text: 'Built AI-powered products' },
       { type: 'feat', text: 'Survived Sweden Rock Festival' },
       { type: 'deploy', text: 'Deployed Aerospace Career Path' },
