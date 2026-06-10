@@ -1,5 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import ParticleBackground from './components/ParticleBackground'
+import WhyAnanth from './components/WhyAnanth'
 import SystemStatus from './components/SystemStatus'
 import FeatureModules from './components/FeatureModules'
 import PersonalInterests from './components/PersonalInterests'
@@ -16,12 +18,14 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen">
+      <ParticleBackground />
       <Navbar />
-      <main>
+      <main className="relative z-10">
         <Hero />
         <SystemStatus />
         <FeatureModules />
         <PersonalInterests />
+        <WhyAnanth />
         <BugTracker />
         <Changelog />
         <PullRequest />
