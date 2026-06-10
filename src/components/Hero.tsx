@@ -54,12 +54,11 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mx-auto mb-10 max-w-2xl text-lg text-gray-400 sm:text-xl"
         >
-          Engineer by day. <span className="text-cyber-pink">Go Kart Champion</span> by weekend.{' '}
+          Software Engineer by day. <span className="text-cyber-pink">Go Kart Champion</span> by weekend.{' '}
           <span className="text-cyber-green">Pro Cricketer</span> by season.{' '}
-          Powered by <span className="text-cyber-blue">AI</span>,{' '}
-          <span className="text-cyber-purple">Startups</span> &{' '}
-          <span className="text-cyber-yellow">Aerospace</span>.{' '}
-          Running on caffeine and ambition since 2003.
+          <span className="text-cyber-yellow">Movie buff</span>. <span className="text-cyber-purple">Meme lord</span>.{' '}
+          <span className="text-cyber-blue">Philosophical motivator</span>.{' '}
+          Running on caffeine, ambition & good vibes since 2003.
         </motion.p>
 
         <motion.div

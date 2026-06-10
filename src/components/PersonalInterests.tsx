@@ -67,6 +67,56 @@ const interests: Interest[] = [
       { label: 'Catches', value: '25+', icon: '🧤' },
     ],
   },
+  {
+    id: 'movies',
+    name: 'Cinema & Movies',
+    icon: '🎬',
+    tagline: 'Crazy Movie Lover — 1000+ Films & Counting',
+    color: 'text-cyber-yellow',
+    borderColor: 'border-cyber-yellow/30',
+    glowColor: 'shadow-cyber-yellow/20',
+    bgGlow: 'bg-cyber-yellow/5',
+    achievements: [
+      { label: 'Genres', value: 'Sci-Fi, Thriller, Drama, Telugu Cinema' },
+      { label: 'Favorite', value: 'Interstellar / Inception / RRR' },
+      { label: 'Superpower', value: 'Can quote any movie scene from memory' },
+      { label: 'Habit', value: 'Movie marathons every weekend' },
+    ],
+    description:
+      'From Nolan masterpieces to Telugu blockbusters — can debate film theory for hours. The person who always has the perfect movie recommendation. Weekend plans? Already sorted: movie marathon.',
+    funFact: 'Has a "must watch" list longer than most people\'s bucket lists. And yes, will judge your taste.',
+    stats: [
+      { label: 'Films Watched', value: '1000+', icon: '🎥' },
+      { label: 'Genres Loved', value: 'All', icon: '🎭' },
+      { label: 'Movie Nights', value: '∞', icon: '🍿' },
+      { label: 'IMDB Reviews', value: '50+', icon: '⭐' },
+    ],
+  },
+  {
+    id: 'tech',
+    name: 'Tech & Open Source',
+    icon: '💻',
+    tagline: 'Full-Stack Builder — Open Source Contributor',
+    color: 'text-cyber-blue',
+    borderColor: 'border-cyber-blue/30',
+    glowColor: 'shadow-cyber-blue/20',
+    bgGlow: 'bg-cyber-blue/5',
+    achievements: [
+      { label: 'Degree', value: 'Masters in Software Engineering — BTH' },
+      { label: 'Open Source', value: 'Major contributor to Home Assistant Green' },
+      { label: 'Superpower', value: 'Build & deploy apps end-to-end' },
+      { label: 'Status', value: 'Recently graduated — ready for the world' },
+    ],
+    description:
+      'Can take an idea from napkin sketch to deployed production app. Contributed a major update to Home Assistant Green — one of Sweden\'s biggest open source IoT projects. Recently graduated with a Masters in Software Engineering from BTH.',
+    funFact: 'Has deployed more apps than most people have downloaded.',
+    stats: [
+      { label: 'Apps Built', value: '20+', icon: '🚀' },
+      { label: 'Open Source PRs', value: '30+', icon: '🔓' },
+      { label: 'Tech Stack', value: 'Full', icon: '⚡' },
+      { label: 'Deploys', value: '100+', icon: '☁️' },
+    ],
+  },
 ]
 
 const container = {
