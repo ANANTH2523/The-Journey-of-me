@@ -4,7 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion'
 const navItems = [
   { label: 'Status', href: '#status' },
   { label: 'Modules', href: '#modules' },
-  { label: 'Bug Tracker', href: '#bugs' },
+  { label: 'Interests', href: '#interests' },
+  { label: 'Bugs', href: '#bugs' },
   { label: 'Changelog', href: '#changelog' },
   { label: 'PR', href: '#pr' },
 ]

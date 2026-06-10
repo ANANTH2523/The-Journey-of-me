@@ -2,11 +2,13 @@ import { motion } from 'framer-motion'
 import { useTypingEffect } from '../hooks/useTypingEffect'
 
 const terminalLines = [
-  '$ sudo apt install aerospace-engineer',
-  '$ pip install ai-integration --upgrade',
-  '$ npm run start-career --mode=production',
-  '$ docker compose up -d startup-survival',
-  '$ cargo build --release --features="full-stack"',
+  '$ sudo apt install aerospace-engineer --turbo',
+  '$ pip install ai-integration --upgrade --no-sleep',
+  '$ npm run start-career --mode=beast',
+  '$ docker compose up -d startup-survival-mode',
+  '$ go-kart --champion --country=india --year=2022',
+  '$ cricket play --league=sweden --role=allrounder',
+  '$ cargo build --release --features="full-stack,chad"',
 ]
 
 export default function Hero() {
@@ -52,11 +54,12 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mx-auto mb-10 max-w-2xl text-lg text-gray-400 sm:text-xl"
         >
-          Production-ready Aerospace Engineer with{' '}
-          <span className="text-cyber-blue">AI</span>,{' '}
-          <span className="text-cyber-purple">Startup</span> and{' '}
-          <span className="text-cyber-pink">Software Engineering</span>{' '}
-          modules installed.
+          Engineer by day. <span className="text-cyber-pink">Go Kart Champion</span> by weekend.{' '}
+          <span className="text-cyber-green">Pro Cricketer</span> by season.{' '}
+          Powered by <span className="text-cyber-blue">AI</span>,{' '}
+          <span className="text-cyber-purple">Startups</span> &{' '}
+          <span className="text-cyber-yellow">Aerospace</span>.{' '}
+          Running on caffeine and ambition since 2003.
         </motion.p>
 
         <motion.div

@@ -3,8 +3,8 @@ import { motion } from 'framer-motion'
 const statusCards = [
   {
     label: 'System Uptime',
-    value: '24 Years',
-    detail: 'Zero critical downtime since initial deployment',
+    value: '23 Years',
+    detail: 'Online since 2003. Zero critical downtime.',
     icon: '⏱',
     color: 'text-cyber-green',
     borderColor: 'border-cyber-green/20',
@@ -13,7 +13,7 @@ const statusCards = [
   {
     label: 'Current Deployment',
     value: 'Stockholm',
-    detail: 'KTH Royal Institute of Technology',
+    detail: 'BTH — Blekinge Institute of Technology',
     icon: '📍',
     color: 'text-cyber-blue',
     borderColor: 'border-cyber-blue/20',

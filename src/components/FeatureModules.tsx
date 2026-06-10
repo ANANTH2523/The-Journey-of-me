@@ -51,8 +51,8 @@ const modules: Module[] = [
     borderColor: 'border-cyber-pink/20',
     glowColor: 'hover:shadow-cyber-pink/10',
     icon: '🏎️',
-    description: 'High-performance racing data analytics module. Cannot be stopped. DRS always enabled. Warning: Will compare everything to F1 strategy.',
-    features: ['Race Strategy', 'Telemetry Analysis', 'DRS Optimization', 'Tyre Degradation Model'],
+    description: 'Go Kart Champion India 2022. DRS permanently enabled. Will compare literally everything to F1 strategy. Cannot be uninstalled — it IS the operating system.',
+    features: ['Go Kart Racing', 'Race Strategy', 'Telemetry Analysis', 'Champion Mindset'],
     isF1: true,
   },
 ]

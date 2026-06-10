@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import SystemStatus from './components/SystemStatus'
 import FeatureModules from './components/FeatureModules'
+import PersonalInterests from './components/PersonalInterests'
 import BugTracker from './components/BugTracker'
 import Changelog from './components/Changelog'
 import PullRequest from './components/PullRequest'
@@ -20,6 +21,7 @@ export default function App() {
         <Hero />
         <SystemStatus />
         <FeatureModules />
+        <PersonalInterests />
         <BugTracker />
         <Changelog />
         <PullRequest />
